@@ -1,17 +1,21 @@
-#header {
+#top {
+    font-style: roboto; /*not a built in font?*/
     font-size: .9em;
     letter-spacing: -1px;
     color: rgb(37, 37, 37);
+    height: 100px;
+    width: max-content;
+    border-style: dashed;
 }
 
-#googleLogo {
-   position: absolute;
-   margin-left: 300px;
-   margin-top: 200px;
+.right {
+    float: right; 
+}
+
+#center {
+   border-style: dashed;
 }
 
 #searchBar {
-    position: absolute;
-    margin-left: 325px;
-    margin-top: 200px;
+    border-style: dashed;
 }
