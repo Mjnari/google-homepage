@@ -1,25 +1,17 @@
-
-
-.blue {
-    color: blue;
+#header {
+    font-size: .9em;
+    letter-spacing: -1px;
+    color: rgb(37, 37, 37);
 }
 
-.red {
-    color: red;
+#googleLogo {
+   position: absolute;
+   margin-left: 300px;
+   margin-top: 200px;
 }
 
-.yellow {
-    color: yellow;
-}
-
-.green {
-    color: green;
-}
-
-.Google {
-    font-family: helvecta;
-    font-size: 56px;
-    letter-spacing: -10px;
-    text-align: center;
-    padding: 180px 0;
+#searchBar {
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 200px;
 }
