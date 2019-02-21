@@ -1,9 +1,10 @@
 .top {
+    display: inline-block;
     font-style: roboto; /*not a built in font?*/
     font-size: .9em;
     letter-spacing: -1px;
     color: rgb(37, 37, 37);
-    height: 175px;
+    margin-bottom: 165px;
     width: 100%;
 }
 
