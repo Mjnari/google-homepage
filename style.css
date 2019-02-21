@@ -19,6 +19,12 @@
    text-align: center;
 }
 
+.bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
 #googleLogo {
     height: 120px;
 }
