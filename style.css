@@ -1,4 +1,4 @@
-#top {
+.top {
     font-style: roboto; /*not a built in font?*/
     font-size: .9em;
     letter-spacing: -1px;
@@ -7,11 +7,7 @@
     width: max-content;
 }
 
-.right {
-    float: right; 
-}
-
-#center {
+.center {
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -19,10 +15,19 @@
    text-align: center;
 }
 
-.googleLogo {
+#googleLogo {
     height: 120px;
 }
 
-input {
-    width: 100%;
+#searchBar {
+    width: 400px;
+    margin-right: 35px;
+}
+
+.searchButtons {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
 }

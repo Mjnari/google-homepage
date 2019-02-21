@@ -9,22 +9,29 @@
 
 <body>
 
-    <div id = "top">
+    <div class = "top">
         <p>
             &nbsp &nbsp &nbsp &nbsp About &nbsp &nbsp &nbsp &nbsp Store <span class="right">Gmail &nbsp &nbsp &nbsp &nbsp Images&nbsp &nbsp &nbsp &nbsp &nbsp </span>
         </p>
     </div>
 
-    <div id = "center">
+    <div class = "center">
         <img 
-        class="googleLogo" 
+        id="googleLogo" 
         src="google-logo.png" 
         alt="Google Logo">
         </img>
         
-        <form id="searchBar">
-            <input type="text">
+        <form>
+            <input id="searchBar" type="text">
         </form>
+    </div>
+
+    <div class = "searchButtons">
+        <input value="Google Search"
+        type="submit">
+        <input value="I'm Feeling Lucky"
+        type="submit">
     </div>
 </body>
 </html>
