@@ -7,6 +7,10 @@
     width: max-content;
 }
 
+.right {
+    float: right; 
+}
+
 .center {
    display: block;
    margin-left: auto;
@@ -29,5 +33,5 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border-style: dotted;
+    margin-top: 20px;
 }
